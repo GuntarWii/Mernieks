@@ -1,0 +1,150 @@
+
+.carousel {
+  height: 594px;
+  box-shadow: 0 1px 3px 0 rgba(92,92,92,1);
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.silder{
+	margin: 0;
+}
+.itemSlide{
+	height: 594px;
+	margin: 0px;
+	visibility: hidden;
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+}
+
+
+
+
+
+.active{
+	visibility: visible;
+}
+
+
+.paginator-btn{
+	width: 20px;
+	height: 20px;
+}
+
+.silder-navigation {
+	position: absolute;
+	bottom: 2%;
+	left: 48%;
+	
+}
+
+.next {
+	position: absolute;
+	right: 3%;
+	top: 50%;
+	background-color: transparent;
+	border: none;
+}
+
+.next, .prew i {
+	font-size: 70px;
+	color:  rgba(255, 255, 255, 0.84);
+}
+
+
+
+.prew {
+	position: absolute;
+	left: 3%;
+	top: 50%;
+		background-color: transparent;
+		border: none;
+}
+
+
+.item-inner h1 {
+	font-weight: normal;
+	padding: 12px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: relative;
+	top: 260px;
+	left: 180px;
+	width: 13%;
+	padding: 1%;
+}
+
+.item-inner h3 {
+	font-weight: normal;
+	padding: 12px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: relative;
+	top: 290px;
+	left: 180px;
+	width: 25%;
+	padding: 1%;
+}
+
+.slide-1{
+	background: url("../_temp/slider_bg1.png") center no-repeat;
+	background-size: cover;
+}
+
+.slide-2{
+	 background: url("../_temp/slider_bg2.png") center no-repeat;
+	background-size: cover;
+}
+
+.slide-3{
+	background: url("../_temp/slider_bg3.png") center no-repeat;
+	background-size: cover;
+}
+
+.right h1{
+	font-weight: normal;
+	padding: 12px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: relative;
+	top: 250px;
+	left: 70%;
+	    width: 24%;
+	padding: 1%;
+	text-align: right;
+}
+
+.right h3{
+	font-weight: normal;
+	padding: 12px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	position: relative;
+	top: 250px;
+	left: 62%;
+	width: 32%;
+	padding: 1%;
+	text-align: right;
+}
+
+
+.paginator-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+/*    border: none;*/
+	margin: 5px;
+	
+    /* color: transparent; */
+    background-color: rgba(255, 255, 255, 0.31);
+}
+
+
+.active-nav{
+	border: 1px solid rgba(33, 30, 30, 0.34);
+	visibility: visible;
+
+}
